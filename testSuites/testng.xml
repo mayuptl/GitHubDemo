@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="TestComponentsAZ.ListenersAZ"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Test.AtoZ.SwitchWindowTest"/>
+      <class name="Test.AtoZ.PaginationTest"/>
+      <class name="Test.AtoZ.ActionClassTest"/>
+      <class name="Test.AtoZ.ShadowDomTest"/>
+      <class name="Test.AtoZ.CheckBoxTest"/>
+      <class name="Test.AtoZ.DynamicTableTest"/>
+      <class name="Test.AtoZ.AlertTest"/>
+      <class name="Test.AtoZ.SwitchTabTest"/>
+      <class name="Test.AtoZ.suggessionDrpDwnTest"/>
+      <class name="Test.AtoZ.DropDownTest"/>
+      <class name="Test.AtoZ.FlipkartPegiTest"/>
+      <class name="Test.AtoZ.AmazonPegiTest"/>
+      <class name="Test.AtoZ.RadioTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

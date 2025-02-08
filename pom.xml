@@ -7,7 +7,11 @@
   <groupId>Test</groupId>
   <artifactId>AtoZ</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
+    /*	public void ScrollDown1100()
+    {
+    JavascriptExecutor js=(JavascriptExecutor) driver;
+    js.executeScript("window.scrollBy(0,1100)");
+    }*/
   <name>AtoZ</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>

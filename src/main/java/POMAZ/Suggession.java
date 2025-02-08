@@ -19,7 +19,11 @@ public class Suggession {
 	WebElement inputText;
 	@FindBy (xpath="//ul[@id='ui-id-1']/li/div")
 	List<WebElement> ListCountryName;
-	
+	/*	public void ScrollDown1100()
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1100)");
+	}*/
 	public void SelectGivenCountry(String NameChar,String CountryName)
 	{
 		inputText.sendKeys(NameChar);

@@ -37,6 +37,13 @@ public class ActionClassPOM {
 		a.moveToElement(nameTxtBox).click().keyDown(Keys.SHIFT).sendKeys("mayur").build().perform();
 		
 	}
+
+/*	public void ScrollDown1100()
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1100)");
+	}*/
+
 	@FindBy(css=".blinkingText")
 	WebElement blinkLink;
 	public void rightClick()
@@ -57,12 +64,21 @@ public class ActionClassPOM {
 		a.dragAndDrop(Bsource, Adesti).build().perform();
 	
 	}
+
+	/*	public void ScrollDown1100()
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1100)");
+	}*/
+
 	@FindBy(xpath="//iframe[@class='demo-frame lazyloaded']")
 	WebElement frame;
 	@FindBy(xpath="//h5[text()='High Tatras']")
 	WebElement Source;
 	@FindBy(xpath="//div[@id='trash']")
 	WebElement Destination;
+	
+	// test test
 	public void DragNDrop1()
 	{
 		

@@ -23,11 +23,19 @@ public class FlipkartPegiPOM {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+	//
+	
+	//
 	@FindBy (css="._30XB9F")
 	WebElement LoginWindowX;
 	@FindBy (css="input[name='q']")
 	WebElement SearchBox;
-	
+	/*	public void ScrollDown1100()
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1100)");
+	}*/
 	@FindBy(css="._4rR01T")
 	List<WebElement> NameList;
 	By NameListBY=By.cssSelector("._4rR01T");
@@ -50,11 +58,7 @@ public class FlipkartPegiPOM {
 			}
 		Actions a=new Actions(driver);
 		a.moveToElement(SearchBox).click().sendKeys("Mobile Phones 5g").keyDown(Keys.ENTER).build().perform();
-				
-		
 		WebDriverWait w=new WebDriverWait(driver,Duration.ofSeconds(10));
-		
-		
 		List<WebElement>MobileName1;
 		do
 			{
@@ -81,7 +85,11 @@ public class FlipkartPegiPOM {
 	}
 	@FindBy (css="._30jeq3._16Jk6d")
 	WebElement price;
-	
+	/*	public void ScrollDown1100()
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1100)");
+	}*/
 	public void getMobileInfo()
 	{
 		Set<String> win=driver.getWindowHandles();

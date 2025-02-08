@@ -20,6 +20,11 @@ public class SwitchTabPOM {
 	WebElement opentab;
 	@FindBy(css=".support.float-left :nth-child(2) span")
 	WebElement ChildTabEmail;
+	/*	public void ScrollDown1100()
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1100)");
+	}*/
 	public void TabSwitch()
 	{
 		opentab.click();

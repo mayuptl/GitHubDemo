@@ -12,6 +12,11 @@ public class ShadowDomPOM {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	/*	public void ScrollDown1100()
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1100)");
+	}*/
 	@FindBy(css="#buttonGenerate")
 	WebElement gearIcon;
 	@FindBy(css="#editField")

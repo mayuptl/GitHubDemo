@@ -25,6 +25,11 @@ public class SwitchWindowPOM {
 		WindowHand();
 		
 	}
+	/*	public void ScrollDown1100()
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1100)");
+	}*/
 	public void WindowHand()
 	{
 		Set<String> WH=driver.getWindowHandles();

@@ -23,6 +23,10 @@ public class FlipkartPegiPOM {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+	//
+	
+	//
 	@FindBy (css="._30XB9F")
 	WebElement LoginWindowX;
 	@FindBy (css="input[name='q']")

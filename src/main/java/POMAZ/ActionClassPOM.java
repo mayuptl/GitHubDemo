@@ -44,6 +44,13 @@ public class ActionClassPOM {
 		js.executeScript("window.scrollBy(0,1100)");
 	}*/
 
+	public void testdemodemo()
+	{
+		blinkLink.click();
+		blinkLink.clear();
+
+		// test demo from feature/branch -> branch
+	}
 	@FindBy(css=".blinkingText")
 	WebElement blinkLink;
 	public void rightClick()

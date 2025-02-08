@@ -63,6 +63,8 @@ public class ActionClassPOM {
 	WebElement Source;
 	@FindBy(xpath="//div[@id='trash']")
 	WebElement Destination;
+	
+	// test test
 	public void DragNDrop1()
 	{
 		

@@ -13,6 +13,8 @@ public class ActionClassTest extends BaseTestAZ {
 		ActionClassPOM ActionClass=ActionClassObj();
 		//ActionClass.mouseHover();
 		//ActionClass.keyEvent();
+		
+		
 		//ActionClass.rightClick();
 		ActionClass.DragNDrop1();
 	}

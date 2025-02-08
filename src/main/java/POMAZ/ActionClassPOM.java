@@ -52,6 +52,15 @@ public class ActionClassPOM {
 		// test demo from feature/branch -> branch
 	}
 	@FindBy(css=".blinkingText")
+	WebElement blinkLink1;
+	public void rightClick1()
+	{
+		Actions a =new Actions(driver);
+		//Test conflict
+		a.contextClick(blinkLink).build().perform();
+	}
+	
+	@FindBy(css=".blinkingText")
 	WebElement blinkLink;
 	public void rightClick()
 	{
